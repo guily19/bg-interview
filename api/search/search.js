@@ -15,7 +15,7 @@ exports.getFirst = function(req, res) {
       const result = $('#search .g').first()
       var item = {};
       var elemUrl = result.find("h3 a")
-      console.log("the elem URL recibed is:", elemUrl)
+      console.log("the elem URL recibed is:", elemUrl.attr("href"))
       var parsedUrl = url.parse(elemUrl.attr("href"), true)
       if (parsedUrl.pathname === '/url') {
         item['url'] = parsedUrl.query.q
