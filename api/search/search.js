@@ -16,7 +16,7 @@ exports.getFirst = function(req, res) {
       var item = {};
       var elemUrl = result.find("h3 a")
       console.log("the elem URL recibed is:", elemUrl.attr("href"))
-      if (elemUrl === undefined){
+      if (elemUrl.attr("href") === undefined){
         res.status(500).send('Something broke!');
       } else {
         var parsedUrl = url.parse(elemUrl.attr("href"), true)
