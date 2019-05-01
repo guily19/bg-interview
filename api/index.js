@@ -12,7 +12,7 @@ app.use((req, res, next) => {
 
 app.get('/search', search.getFirst)
 
-const port = process.env.PORT || 8000;
+const port = 443;
 
 app.listen(port, function () {
   console.log('Example app listening on port' + port);
