@@ -10,9 +10,13 @@ app.use((req, res, next) => {
   next();
 });
 
+app.get('/', function (req, res) {
+  res.send('Hello World!');
+});
+
 app.get('/search', search.getFirst)
 
-const port = 443;
+const port = 80;
 
 app.listen(port, function () {
   console.log('Example app listening on port' + port);
