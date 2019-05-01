@@ -5,9 +5,9 @@ var url     = require('url')
 
 exports.getFirst = function(req, res) {
   const text = req.query.q
-  const url = 'http://www.google.com/search?q='+ text
-  console.log('the url to search is:', url)
-  request(url, function (error, response, body) {
+  const url2search = 'http://www.google.com/search?q='+ text
+  console.log('the url to search is:', url2search)
+  request(url2search, function (error, response, body) {
     if (error){
       console.log('error:', error); // Print the error if one occurred
     } else {
