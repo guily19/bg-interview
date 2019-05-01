@@ -16,11 +16,15 @@ exports.getFirst = function(req, res) {
       var item = {};
       var elemUrl = result.find("h3 a")
       console.log("the elem URL recibed is:", elemUrl.attr("href"))
-      var parsedUrl = url.parse(elemUrl.attr("href"), true)
-      if (parsedUrl.pathname === '/url') {
-        item['url'] = parsedUrl.query.q
+      if (elemUrl === undefined){
+        res.status(500).send('Something broke!');
+      } else {
+        var parsedUrl = url.parse(elemUrl.attr("href"), true)
+        if (parsedUrl.pathname === '/url') {
+          item['url'] = parsedUrl.query.q
+        }
+        res.send(item['url'])  
       }
-      res.send(item['url'])  
     }  
   })
 
