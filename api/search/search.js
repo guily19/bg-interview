@@ -6,7 +6,7 @@ var url = require('url');
 // The function returns the first url that appears in google
 exports.getFirst = function(req, res) {
   const text = req.query.q;
-  const url2search = 'https://www.google.com/search?q='+ text.toString();
+  const url2search = 'http://www.google.com/search?q='+ text.toString();
   console.log('the url to search is:', url2search);
   request(url2search, function (error, response, body) {
     if (error){
