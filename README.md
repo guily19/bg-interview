@@ -4,9 +4,9 @@ This repository has been created to delivery the code done by guillemcasanova@gm
 
 ## The repo contains two folders:
 
-- landing-page : That contains the simple front-end requested in the documentation that is uploaded in the following link [https://keen-noether-d8b69f.netlify.com](https://keen-noether-d8b69f.netlify.com)
+- **landing-page** : That contains the simple front-end requested in the documentation that is uploaded in the following link [https://keen-noether-d8b69f.netlify.com](https://keen-noether-d8b69f.netlify.com)
 
-- api : The api is the back-end of the project. It has been depeloped using nodejs. Below you can find the packages that has been used in this project.
+- **api** : The api is the back-end of the project. It has been depeloped using nodejs. Below you can find the packages that has been used in this project.
 
 ## Packages
 
