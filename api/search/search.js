@@ -5,7 +5,7 @@ var url     = require('url')
 
 exports.getFirst = function(req, res) {
   const text = req.query.q
-  const url2search = 'http://www.google.com/search?q='+ text
+  const url2search = 'http://www.google.com/search?q='+ text.toString()
   console.log('the url to search is:', url2search)
   request(url2search, function (error, response, body) {
     if (error){
