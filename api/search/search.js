@@ -1,5 +1,5 @@
 var request = require('request')
-var cheerio = require('cheerio')
+var cheerio = require('cherio')
 var url     = require('url')
 
 
