@@ -19,8 +19,10 @@ This repository has been created to deliver the code done by guillemcasanova@gma
 1. Clone de repository
 2. Enter to the api folder
 3. Run:
-```npm i
- npm start```
+```
+npm i
+ npm start
+````
 
 ## Problems I've found
 
