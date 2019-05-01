@@ -1,6 +1,6 @@
 # boatsgroup-interview
 
-This repository has been created to delivery the code done by guillemcasanova@gmail.com to the company as part of the second step of the interview.
+This repository has been created to deliver the code done by guillemcasanova@gmail.com to the company as part of the second step of the interview.
 
 ## The repo contains two folders:
 

@@ -25,7 +25,7 @@ describe('API endpoint /search', function() {
   this.timeout(5000); // How long to wait for a response (ms)
 
   // GET - return a URL of the search
-  it('should return a URL', function() {
+  it('should return an URL', function() {
     return chai.request(app)
       .get('/search?q=boatsgroup')
       .then(function(res) {
