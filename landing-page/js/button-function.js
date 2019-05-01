@@ -11,7 +11,7 @@
           if(req.status == 200)
             window.location.href = req.responseText;
           else
-            console.error("Error loading page\n");
+          alert("Error redirecting to this site. Sorry, try again");
         }
       };
       req.send();
