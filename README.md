@@ -14,15 +14,19 @@ This repository has been created to deliver the code done by guillemcasanova@gma
 - [cheerio](https://www.npmjs.com/package/cheerio): This package is a library like [jquery](https://jquery.com) that do easyer the scratch of the google response
 - [request](https://www.npmjs.com/package/request): This package is used to do the request to the google.com page
 
-## To run it locally
+## To run the api locally
 
 1. Clone de repository
 2. Enter to the api folder
-3. Run:
+3. Run: (my nodejs version: **v10.15.3**)
 ```
-npm i
+ npm i
  npm start
-````
+```
+
+## To use the api
+
+1. Use postman (for example) and send request to **localhost:3000/search?q="the word you want to request"** 
 
 ## Problems I've found
 
