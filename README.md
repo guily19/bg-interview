@@ -13,3 +13,17 @@ This repository has been created to deliver the code done by guillemcasanova@gma
 - [express](https://www.npmjs.com/package/express): This package allow node js to recive and answer http request
 - [cheerio](https://www.npmjs.com/package/cheerio): This package is a library like [jquery](https://jquery.com) that do easyer the scratch of the google response
 - [request](https://www.npmjs.com/package/request): This package is used to do the request to the google.com page
+
+## To run it locally
+
+1. Clone de repository
+2. Enter to the api folder
+3. Run:
+```npm i
+ npm start```
+
+## Problems I've found
+
+During the developement of this application I've found some problemes. Here I provide the list of them:
+
+- The way it works localy is different than in the cloud. Some words that dont provide information in the web page are working when I use it localy.
