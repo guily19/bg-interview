@@ -4,7 +4,7 @@
   "description": "return the first option search in google",
   "main": "index.js",
   "scripts": {
-    "test": "test",
+    "test": "mocha --recursive",
     "start": "node index.js"
   },
   "author": "guillemcasanova@gmail.com",
@@ -13,5 +13,10 @@
     "cherio": "^1.0.0-rc.2",
     "express": "^4.16.4",
     "request": "^2.88.0"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-http": "^4.3.0",
+    "mocha": "^6.1.4"
   }
 }
