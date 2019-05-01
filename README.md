@@ -28,8 +28,3 @@ This repository has been created to deliver the code done by guillemcasanova@gma
 
 1. Use postman (for example) and send request to **localhost:3000/search?q="the word you want to request"** 
 
-## Problems I've found
-
-During the developement of this application I've found some problemes. Here I provide the list of them:
-
-- The way it works localy is different than in the cloud. Some words that dont provide information in the web page are working when I use it localy.
