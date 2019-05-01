@@ -1,5 +1,5 @@
 var express = require('express');
-var search = require('./search/search.js')
+var search = require('./search/search.js');
 var app = express();
 
 app.use((req, res, next) => {
@@ -11,10 +11,10 @@ app.use((req, res, next) => {
 });
 
 app.get('/', function (req, res) {
-  res.send('Hello World!');
+  res.redirect('https://keen-noether-d8b69f.netlify.com');
 });
 
-app.get('/search', search.getFirst)
+app.get('/search', search.getFirst);
 
 const port = process.env.PORT || 3000;
 
