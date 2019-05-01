@@ -8,10 +8,11 @@
       req.open('GET', 'https://boiling-sands-23849.herokuapp.com/search?q=' + text, true);
       req.onreadystatechange = function (aEvt) {
         if (req.readyState == 4) {
-          if(req.status == 200)
+          if(req.status == 200) {
             window.location.href = req.responseText;
-          else
-          alert("Error redirecting to this site. Sorry, try again");
+          } else {
+            alert("Error redirecting to this site. Sorry, try again");
+          }
         }
       };
       req.send();
